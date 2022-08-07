@@ -26,3 +26,5 @@ PLAY RECAP *********************************************************************
 172.31.93.213              : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 172.31.95.193              : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 ![image](https://user-images.githubusercontent.com/103021940/183280897-1aa904f2-22d3-43fa-b623-088bbffd0d3f.png)
+
+##ansible.pem file it should have your private key to communicate SSH with the target host. location /home/ec2-user/ansible.pem will change according to your location where you keep your pem file. 
